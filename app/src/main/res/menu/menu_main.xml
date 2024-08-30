@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Options with showAsAction Always -->
+    <item
+        android:id="@+id/action_one"
+        android:icon="@drawable/nav_ajustes"
+        android:title="Opción 1"
+        android:visible="true"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_two"
+        android:icon="@drawable/nav_llamada"
+        android:title="Opción 2"
+        android:visible="true"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_three"
+        android:icon="@drawable/nav_notificaciones"
+        android:title="Opción 3"
+        android:visible="true"
+        app:showAsAction="always" />
+
+    <!-- Options with showAsAction Never -->
+    <item
+        android:id="@+id/action_four"
+        android:title="Opción 4"
+        android:icon="@drawable/nav_wifi"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_five"
+        android:title="Opción 5"
+        android:icon="@drawable/nav_music_off"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_six"
+        android:title="Opción 6"
+        android:icon="@drawable/nav_add_location"
+        app:showAsAction="never" />
+
+</menu>
